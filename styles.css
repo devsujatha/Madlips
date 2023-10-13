@@ -1,0 +1,57 @@
+#wrapper {
+    background-color: bisque;
+    width: 70%;
+    margin: 0 auto; 
+    padding: 2em;
+     
+    border: 2px solid #e5d6b4; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+#output {
+    display: none; 
+    margin-top: 20px; 
+    font-size: 18px; 
+    color: #333; 
+    text-align: left; 
+    background-color: #fff; 
+    padding: 20px; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+
+#againButton {
+    display: none; 
+    background-color: #0073e6; 
+    color: #fff; 
+    border: none; 
+    border-radius: 4px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease-in-out; 
+}
+
+#againButton:hover {
+    background-color: #ff6600; 
+}
+
+#submitButton{
+    
+    background-color: #ff6600; 
+    color: #fff; 
+    border: none;
+    border-radius: 4px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease-in-out; 
+}
+
+
+#submitButton:hover {
+    background-color: #0073e6; 
+}
